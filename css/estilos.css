@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #ffffff; }
+
+/* DISENO DEL LOGO */
+.logo {
+  position: absolute;
+  z-index: 2;
+  padding: 2px 50px; }
+  .logo .img-logo {
+    width: 100px; }
+
+.portada {
+  background-image: url(../img/portadas/3.jpg); }
+  .portada .img-portada {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.3); }
+
+/* DISENO MENU DE NAVEGACION */
+.clase-diseno-menu-principal {
+  background-color: #30aee9; }
+
+/* ITEMS MENU DE NAVEGACION */
+#clase-a-link {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+  margin: 0 30px; }
+
+#clase-a-link:hover {
+  color: black;
+  transition: 1s; }
+
+.contenedor-general {
+  width: 100%;
+  padding: 0% 20%; }
+
+.contenedor-noticias {
+  height: 100%;
+  padding: 15px;
+  background-color: white; }
+
+/* PRINCIPAL-TITULO */
+.titulo-principal {
+  font-size: 20px; }
+
+.link-principal {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding-left: 10%; }
+
+.link-principal:hover {
+  color: #1599d6; }
+
+/* PRINCIPAL-BOX 1 */
+.categoria-box1-principal {
+  width: 25%;
+  background-color: #1599d6;
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+  margin: 1px 0px; }
+
+.titulo-box1-principal {
+  text-align: left;
+  color: #1599d6; }
+
+.hr-principal-box1 {
+  width: 100%;
+  font-size: 2px;
+  background-color: #1599d6; }
+
+/* SECUNDARIO TITULO */
+.titulo-secundario {
+  font-size: 20px; }
+
+/* SECUNDARIO TITULO BOX1*/
+.titulo-box1-secundario {
+  font-size: 20px;
+  text-align: left;
+  color: #1599d6; }
+
+.descrip-box1-secundario {
+  text-align: left; }
+
+.contenedor-general {
+  width: 100%;
+  padding: 0% 20%; }
+
+/* HISTORIA */
+.contenedor-historia {
+  height: 100%;
+  padding: 15px;
+  background-color: white; }
+
+.historia-titulo-principal {
+  padding: 10px; }
+
+/* HISTORIA "titulos - links" */
+.historia-subtitulo-principal {
+  font-size: 20px; }
+
+.historia-subtitulo-secundario {
+  font-size: 20px; }
+
+.hitoria-links {
+  padding: 10px 0px; }
+
+.hitoria-links > a {
+  text-decoration: none;
+  color: #1599d6; }
+
+.hitoria-links > a:hover {
+  text-decoration: none;
+  color: #000000; }

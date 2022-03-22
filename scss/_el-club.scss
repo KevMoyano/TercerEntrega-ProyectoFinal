@@ -1,0 +1,35 @@
+.contenedor-general{
+    width: 100%;
+    padding: 0% 20%;
+}
+
+
+/* HISTORIA */
+.contenedor-historia{
+    height: 100%;
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.historia-titulo-principal {
+    padding: 10px;
+}
+
+
+/* HISTORIA "titulos - links" */ 
+.historia-subtitulo-principal{
+    font-size: 20px;
+}
+.historia-subtitulo-secundario {
+    font-size: 20px;
+}
+.hitoria-links {
+    padding: 10px 0px;
+}
+.hitoria-links > a {
+    text-decoration: none;
+    color: #1599d6;
+}
+.hitoria-links > a:hover {
+    text-decoration: none;
+    color: #000000;
+}
